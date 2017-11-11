@@ -5,3 +5,15 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+#works{
+	
+}
+.works__card{
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+}
