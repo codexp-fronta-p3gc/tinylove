@@ -1,0 +1,12 @@
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+} 
+
+.icons i {
+    width: 30px;
+
+}
+    
