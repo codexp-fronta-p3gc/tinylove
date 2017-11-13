@@ -1,11 +1,15 @@
 body {
     width: 100%;
-    
+
 }
+.store {
+    display: flex;
+}
+
 .btn-media {
     background-color: #000;
     color: #fff;
-    width: 160px;
+    max-width: 160px;
     display: flex;
     border-radius: 5px;
     padding: 10px;
