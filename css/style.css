@@ -183,7 +183,9 @@ body{
     flex-wrap: wrap;
     width: 100%;
 }
-
+#works{
+    background-color: #393b47;
+}
 .works__title{
 	text-align: center;
 	padding-top: 50px;
