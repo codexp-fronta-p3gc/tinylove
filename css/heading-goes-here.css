@@ -5,6 +5,7 @@
 }
 body{
 	font-family: Arial;
+	background-color: #393b47;
 }
 .works__title{
 	text-align: center;
@@ -76,13 +77,13 @@ body{
 
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 992px){
 	.works__card{
 		padding: 50px 10% 0 10%;
 	}
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1200px){
 	.works__card{
 		padding: 50px 20% 0 20%;
 	}
