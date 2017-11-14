@@ -53,6 +53,11 @@
 	display: none;
 }
 
+.hand-img {
+	display: none;
+	flex: 1;
+}
+
 @media screen and (min-width: 768px) {
 	.page-header__text {
 		display: block;
@@ -74,5 +79,9 @@
 		-moz-filter: blur(5px);
 		-o-filter: blur(5px);
 		-ms-filter: blur(5px);
+	}
+
+	.hand-img {
+		display: flex;
 	}
 }
