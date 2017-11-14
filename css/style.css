@@ -19,6 +19,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover; 
     position: relative;
+    border-bottom: 8px solid rgb(198, 87, 68);
 }
 
 .page-header::before {
@@ -281,7 +282,7 @@ form button {
     width: inherit;
     height: 20px;
     color: #c25446;
-    background-color: #ccc;
+    background-color: #fff;
     padding: 5%;
     text-align: center;
     display: flex;
@@ -386,7 +387,7 @@ form button {
 	}
 
     .copyright {
-        padding: 1%;
+        padding: 2%;
     }
 }
 
