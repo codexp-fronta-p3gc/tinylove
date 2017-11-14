@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+
+}
+.store {
+    display: flex;
+}
+
+.btn-media {
+    background-color: #000;
+    color: #fff;
+    max-width: 160px;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+}
+
+.btn-media i {
+    flex: 1;
+    font-size: 30px;
+}
+
+.btn-media__text {
+    flex: 3;
+}
+
+.first-text {
+	font-size: 11px;
+	text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.google-text {
+	font-size: 20px;
+}
+
+.apple{
+    font-family: 'Roboto', sans-serif;
+}
+
+.apple .first-text{
+    text-transform: none;
+    font-size: 12px;
+}
