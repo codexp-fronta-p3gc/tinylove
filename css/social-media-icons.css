@@ -1,14 +1,16 @@
 header {
-    font-size: 24px;
 }
 
 .icons {
     display: flex;
     justify-content: space-around;
+    min-width: 100px;
+    margin-bottom: 25px;
 } 
 
 .icons i {
     font-size: 0.5em;
+    font-size: 20px;
 }
 
 input {

@@ -1,9 +1,10 @@
 body {
     width: 100%;
-
+	font-family: 'Open Sans', sans-serif;
 }
 .store {
     display: flex;
+    padding: 20px;
 }
 
 .btn-media {
