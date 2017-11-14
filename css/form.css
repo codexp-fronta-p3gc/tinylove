@@ -2,13 +2,14 @@ footer {
     background-color: #c25446;
     color: white;
     margin 5%;
+    padding-top: 5%;
 }
 
 footer h1 {
     text-align: center;
     font-size: 3em;
     width: 50%;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 form {
