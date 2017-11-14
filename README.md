@@ -2,7 +2,7 @@
 
 ## Projeto Front end do curso Senai/JP Morgan
 
-[Veja aqui o resultado:] (https://codexp-fronta-p3gc.github.io/layout-1/)
+[Veja aqui o resultado](https://codexp-fronta-p3gc.github.io/layout-1/)
 
 ## Tecnologias usadas:
 
