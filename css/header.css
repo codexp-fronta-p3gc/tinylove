@@ -84,4 +84,23 @@
 	.hand-img {
 		display: flex;
 	}
+
+	.page-header__description {
+		display: flex; 
+	}
+
+	.description-text {
+		flex-direction: column;
+	    align-self: center;
+	    text-align: left
+    	max-width: 500px;
+	}
+
+	.page-header h2, .page-header__text {
+		text-align: left;
+	}
+
+	.store, .description-text h2 {
+		padding-left: 0;
+	}
 }
