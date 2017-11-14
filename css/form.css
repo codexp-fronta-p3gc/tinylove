@@ -1,0 +1,73 @@
+footer {
+    background-color: #c25446;
+    color: white;
+    margin 5%;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 3em;
+    width: 50%;
+    margin: 10px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+} 
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 2%;
+    border-radius: 2px;
+}
+
+form input, textarea {
+    border: none;
+    margin-bottom: 5%;
+    border-radius: 2px;
+}
+
+form button {
+    width: 100px;
+    background-color: #ab4747;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+
+.copyright {
+    width: inherit;
+    height: 20px;
+    color: #c25446;
+    background-color: #ccc;
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+    form {
+        margin: 5% 30%;
+    } 
+
+    form button {
+        margin-bottom: 0;
+    }
+
+    .copyright {
+        padding: 1%;
+    }
+}
+
+
+
+
+
