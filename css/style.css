@@ -163,11 +163,11 @@ body{
     color: #FFF;
 }
 
-.section-title__last-div {
+.last-div {
     background-color: #c54b3c;
 }
 
-.section-title__last-div > p {
+.last-div__text {
     padding: 3% 5%;
     text-align: center;
     color: white;
