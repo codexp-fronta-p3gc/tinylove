@@ -10,7 +10,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-.page-header {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@ body{
     border-bottom: 8px solid rgb(198, 87, 68);
 }
 
-.page-header::before {
+.hero::before {
     content: "";
     background-color: rgba(198, 87, 68, 0.92);
     position: absolute;
@@ -32,11 +32,11 @@ body{
     bottom: 0;
 }
 
-.page-header > * {
+.hero > * {
     z-index: 1;
 }
 
-.page-header i.logo{
+.hero i.logo{
     border: 1px solid #fff;
     background-color: #fff;
     padding: 8px;
@@ -44,23 +44,23 @@ body{
     color: #000;
 }
 
-.page-header__logo-text {
+.hero__logo-text {
     text-transform: uppercase;
     font-size: 10px;
     padding-top: 10px;
 }
 
-.page-header h2 {
+.hero h2 {
     font-weight: normal;
     padding: 0 20px 10px;
     text-align: center;
 }
 
-.page-header__logo-title {
+.hero__logo-title {
     padding: 15px;
 }
 
-.page-header__text {
+.hero__text {
     font-size: 13px;
     text-align: center;
     display: none;
@@ -71,7 +71,7 @@ body{
     flex: 1;
 }
 
-.store {
+.button-app {
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -293,7 +293,7 @@ form button {
 }
 
 @media screen and (min-width: 768px) {
-    .page-header__text {
+    .hero__text {
         display: block;
         max-width: 700px;
     }
@@ -332,11 +332,11 @@ form button {
 }
 
 @media screen and (min-width: 992px){
-    .page-header {
+    .hero {
         background: none ;
     }
 
-    .page-header::before {
+    .hero::before {
         background-color: none;
         background:url('../images/banner-img3.jpeg');
         background-repeat: no-repeat;
@@ -352,7 +352,7 @@ form button {
         display: flex;
     }
 
-    .page-header__description {
+    .hero__description {
         display: flex; 
         max-width: 900px;
     }
@@ -363,11 +363,11 @@ form button {
         text-align: left
     }
 
-    .page-header h2, .page-header__text {
+    .hero h2, .hero__text {
         text-align: left;
     }
 
-    .store, .description-text h2 {
+    .button-app, .description-text h2 {
         padding-left: 0;
         justify-content: flex-start;
     }
