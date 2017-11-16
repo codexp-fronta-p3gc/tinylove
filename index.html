@@ -10,11 +10,38 @@
 </head>
 <body>
     <header>
-        <div class="icons">
+       <i class="fa fa-gratipay logo" aria-hidden="true"></i>
+		<span class="page-header__logo-text">introducing</span>
+		<h1 class="page-header__logo-title">TinyLove</h1>
+		<div class="icons">
             <i class="fa fa-envelope-o" aria-hidden="true"></i>
             <i class="fa fa-facebook" aria-hidden="true"></i>
             <i class="fa fa-twitter" aria-hidden="true"></i>
         </div>
+		<section class="page-header__description">
+			<img class="hand-img" src="images/hand.png" alt="">
+			<h2>Enticing statement goes here.</h2>	
+		    <p class="page-header__text">
+		    	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, libero officiis? Praesentium explicabo alias suscipit dolore, inventore! Quae vitae minima, ducimus perferendis alias nulla ipsa, repellendus quo magni sed error.
+		    </p>
+		    <section class="store">
+		        <a href="" class="btn-media google">
+		            <i class="fa fa-google" aria-hidden="true"></i>
+		            <div class="btn-media__text">
+		                <span class="first-text">Android app on</span>
+		                <span>Google play</span>
+		            </div>
+		        </a>
+		        <a href="" class="btn-media apple">
+		            <i class="fa fa-apple" aria-hidden="true"></i>
+		            <div class="btn-media__text">
+		                <span class="first-text">Available on the</span>
+		                <span>App Store</span>
+		            </div>
+
+		        </a>
+		    </section>
+		</section>
     </header>
     <main>
         <div class="section-title__last-div">
@@ -82,23 +109,24 @@
                 </figure>
             </article>	
         </section>
-    </main>
-    <footer>
+    
+    <section class="get-in-touch">
         <h1>Get in touch</h1>
-        <form action="">
-            <label for="name">Name *</label>
-            <input type="text" id="name">
-            <label for="email">Email Address *</label>
-            <input type="email" id="email">
-            <label for="subject">Subject *</label>
-            <input type="text" id="subject">
-            <label for="message">Message *</label>
-            <textarea name="textarea" rows="5" cols="50" id="message"></textarea>
-            <button type="submit">Submit</button>
+        <form class="get-in-touch__form-group" action="">
+            <label class="get-in-touch__form-label" for="name">Name *</label>
+            <input class="get-in-touch__form-input"type="text" id="name">
+            <label class="get-in-touch__form-label" for="email">Email Address *</label>
+            <input class="get-in-touch__form-input" type="email" id="email">
+            <label class="get-in-touch__form-label" for="subject">Subject *</label>
+            <input class="get-in-touch__form-input" type="text" id="subject">
+            <label class="get-in-touch__form-label" for="message">Message *</label>
+            <textarea class="get-in-touch__form-textarea" name="textarea" rows="5" cols="50" id="message"></textarea>
+            <button class="get-in-touch__form-button" type="submit">Submit</button>
         </form>
-        <div class="copyright">
-            <i class="fa fa-copyright" aria-hidden="true">Tinylove 2013</i>
-        </div>
+    </section>
+    </main>
+    <footer class="copyright">
+        <i class="fa fa-copyright" aria-hidden="true">Tinylove 2013</i>
     </footer>
     
 </body>

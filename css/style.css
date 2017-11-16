@@ -10,6 +10,50 @@ body{
 	font-family: Arial;
 }
 
+.store {
+    display: flex;
+    padding: 20px;
+}
+
+.btn-media {
+    background-color: #000;
+    color: #fff;
+    max-width: 160px;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+}
+
+.btn-media i {
+    flex: 1;
+    font-size: 30px;
+}
+
+.btn-media__text {
+    flex: 3;
+}
+
+.first-text {
+	font-size: 11px;
+	text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.google-text {
+	font-size: 20px;
+}
+
+.apple{
+    font-family: 'Roboto', sans-serif;
+}
+
+.apple .first-text{
+    text-transform: none;
+    font-size: 12px;
+}
+
 .div-title__title,
 .div-title__text {
     color: #8c8787;
@@ -116,42 +160,42 @@ body{
 	margin-top: 30px;
 }
 
-footer {
+.get-in-touch {
     background-color: #c25446;
     color: white;
     margin 5%;
     padding-top: 5%;
 }
 
-footer h1 {
+.get-in-touch h1 {
     text-align: center;
     font-size: 3em;
     width: 50%;
     margin: 0 auto;
 }
 
-form {
+.get-in-touch__form-group {
     display: flex;
     flex-direction: column;
     margin: 2% 5%;
 } 
 
-form label {
+.get-in-touch__form-label {
     margin-bottom: 5px;
 }
 
-form input {
+.get-in-touch__form-input {
     padding: 2%;
     border-radius: 2px;
 }
 
-form input, textarea {
+.get-in-touch__form-input, .get-in-touch__form-textarea {
     border: none;
     margin-bottom: 5%;
     border-radius: 2px;
 }
 
-form button {
+.get-in-touch__form-button {
     width: 100px;
     background-color: #ab4747;
     color: white;
@@ -233,11 +277,11 @@ form button {
 	.works__card{
 		padding: 50px 20% 0 20%;
 	}
-    form {
+    .get-in-touch__form-group {
         margin: 5% 30%;
     } 
 
-    form button {
+    .get-in-touch__form-button {
         margin-bottom: 0;
     }
 
