@@ -346,7 +346,8 @@ body {
         -moz-filter: blur(5px);
         -o-filter: blur(5px);
         -ms-filter: blur(5px);
-        transform: scale(1.1);
+        margin: -5px;
+        margin-right: 0px;
         z-index: -1;
     }
     .hand-img {
