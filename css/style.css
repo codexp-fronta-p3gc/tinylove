@@ -254,7 +254,7 @@ body {
 .get-in-touch__form-group {
     display: flex;
     flex-direction: column;
-    margin: 2% 5%;
+    margin: 0 5%;
 }
 
 .get-in-touch__form-label {
@@ -270,6 +270,10 @@ body {
     border: none;
     margin-bottom: 5%;
     border-radius: 2px;
+}
+
+.get-in-touch__form-textarea {
+    height: 100px;
 }
 
 .get-in-touch__form-button {
@@ -390,11 +394,11 @@ body {
 		padding: 50px 20% 0 20%;
 	}
     .get-in-touch__form-group {
-        margin: 5% 30%;
+        margin: 0 30%;
     } 
 
     .get-in-touch__form-button {
-        margin-bottom: 0;
+        margin-bottom: 5%;
     }
     .box-content {
         max-height: 22em;
