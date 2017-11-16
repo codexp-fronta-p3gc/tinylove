@@ -131,12 +131,12 @@ body {
 
 /*SECTION TITLE*/
 
-.box-content__title,
-.box-content__text {
+.reason-to-use__box__title,
+.reason-to-use__box__text {
     color: #8c8787;
 }
 
-.box-content {
+.reason-to-use__box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,16 +146,16 @@ body {
     margin: 0 8% 0 8%;
 }
 
-.box-content__title {
+.reason-to-use__box__title {
     font-size: 1.9em;
 }
 
-.box-content__subtitle {
+.reason-to-use__box__subtitle {
     color: #e0dada;
     font-size: 1.6em;
 }
 
-.box-content__icon {
+.reason-to-use__box__icon {
     border-radius: 50%;
     background-color: #c54b3c;
     width: 2em;
@@ -247,7 +247,6 @@ body {
 footer {
     background-color: #c25446;
     color: white;
-    margin: 5%;
     padding-top: 5%;
 }
 
@@ -306,7 +305,7 @@ form button {
         display: block;
         max-width: 700px;
     }
-    .box-content {
+    .reason-to-use__box {
         width: 70%;
     }
     .works__block--1 {
@@ -379,7 +378,7 @@ form button {
         justify-content: center;
         margin: 0 auto;
     }
-    .box-content {
+    .reason-to-use__box {
         /*width: 100%%;*/
         width: 25%;
         height: 25em;
@@ -404,7 +403,7 @@ form button {
     form button {
         margin-bottom: 0;
     }
-    .box-content {
+    .reason-to-use__box {
         max-height: 22em;
     }
 }
